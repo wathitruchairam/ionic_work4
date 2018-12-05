@@ -1,0 +1,23 @@
+page-home {
+    ion-title{
+        text-align: center;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(249, 246, 246, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        color: #878787;
+      }
+      .small{
+        font-family: 'Athiti', sans-serif;
+          padding-top: 5px;
+          font-size: 15px;
+      }
+}
